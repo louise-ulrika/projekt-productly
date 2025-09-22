@@ -64,3 +64,62 @@
     font-weight:600;
     cursor:pointer;
 }
+
+.second-section
+
+{
+    text-align:center;
+    padding:50px;
+    background-color:#F5F5F5;
+    font-family:"Poppins",sans-serif;
+}
+
+.get-started
+{
+    background-color:orange;
+    border:none;
+    color:#FFFFFF;
+    padding:15px 30px;
+    border-radius:30px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    margin-right:20px;
+    }
+.watch-the-video
+{
+    background-color:#FFFFFF;
+    border:2px solid orange;
+    color:orange;
+    padding:15px 30px;
+    border-radius:30px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.third-section
+{
+    text-align:center;
+    padding:50px;
+    font-family:"Poppins",sans-serif;
+    font-style:bold;
+    font-size:36;
+}
+.heading-1
+{
+    font-weight:600;
+    font-size:36px;
+    color:#544837;
+    margin-bottom:20px;
+    font-style:bold;
+}
+
+.list
+{
+    list-style-type:none;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-bottom:20px;
+}
