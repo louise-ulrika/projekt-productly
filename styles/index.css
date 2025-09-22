@@ -1,5 +1,8 @@
 
+.body {
 
+    font-family:"Poppins",sans-serif;
+}
 
 .nav-list
 
@@ -18,7 +21,7 @@
     display:flex;
     align-items:center;
     margin-right:100px;
-    font-family:"Poppins";
+    font-family:"Poppins",sans-serif;
     font-size:16px;
 
 }
@@ -28,4 +31,36 @@
     margin-right:2rem;
     font-size:14px;
     color:#544837;
+}
+
+
+
+.btn-sign-in
+
+{
+    display:flex;
+    align-items:center;
+    background-color:#FFFFFF;
+    border:2px solid orange;
+    color:orange;
+    padding:10px 20px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:600;
+    cursor:pointer;
+}   
+
+.btn-yellow
+
+{
+    display:flex;
+    align-items:center;
+    background-color:orange;
+    border:2px solid orange;
+    color:#FFFFFF;
+    padding:10px 20px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:600;
+    cursor:pointer;
 }
