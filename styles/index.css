@@ -65,14 +65,18 @@
 .second-section
 
 {
-    text-align:center;
+    display:flex;
+    justify-content:column;
+    text-align:column;
+    align-content:center;
+    flex-wrap:wrap;
     padding:50px;
     background-color:#F5F5F5;
     font-family:"Poppins",sans-serif;
     font-style:bold;
     font-size:36;
-    max-width:1126px;
-    max-height:496px;
+    min-width:1126px;
+    min-height:496px;
 }
 
 .get-started
