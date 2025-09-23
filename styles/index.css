@@ -1,8 +1,5 @@
 
-.body {
 
-    font-family:"Poppins",sans-serif;
-}
 
 .nav-list
 
@@ -41,10 +38,10 @@
     display:flex;
     align-items:center;
     background-color:#FFFFFF;
-    border:2px solid orange;
+    border:none;
     color:orange;
     padding:10px 20px;
-    border-radius:30px;
+    border-radius:4px;
     font-size:14px;
     font-weight:600;
     cursor:pointer;
@@ -56,10 +53,10 @@
     display:flex;
     align-items:center;
     background-color:orange;
-    border:2px solid orange;
+    border:none;
     color:#FFFFFF;
     padding:10px 20px;
-    border-radius:30px;
+    border-radius:4px;
     font-size:14px;
     font-weight:600;
     cursor:pointer;
@@ -72,6 +69,10 @@
     padding:50px;
     background-color:#F5F5F5;
     font-family:"Poppins",sans-serif;
+    font-style:bold;
+    font-size:36;
+    max-width:1126px;
+    max-height:496px;
 }
 
 .get-started
@@ -119,7 +120,19 @@
 {
     list-style-type:none;
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     gap:20px;
     margin-bottom:20px;
+}
+
+.list-item
+{
+    background-color:#FFFFFF;
+    border:2px solid orange;
+    color:orange;
+    padding:15px 30px;
+    border-radius:30px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
 }
